@@ -4,11 +4,19 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:fitsSystemWindows="true"
-             android:background="@android:color/black"
              tools:context=".SplashActivity">
-
-    <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/splash"
+    <com.aa.love.heart.TreeView
+            android:id="@+id/tree_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:text="爱你,好high哟，你是挖心那一絮聒"/>
 </FrameLayout>
