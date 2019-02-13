@@ -24,6 +24,9 @@ class SplashActivity : AppCompatActivity() {
         tv.visibility = View.VISIBLE
         val animation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
         tv.startAnimation(animation)
+        tv.postDelayed({
+            startActivity(Intent(this, MainActivity::class.java))
+        }, 1500L)
     }
 
 }
